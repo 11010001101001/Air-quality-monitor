@@ -58,10 +58,10 @@ SensorsManager::AirQualityData SensorsManager::collectAirQualityData()
     String pressureStr = "Press: " + String(pressure) + " mm";
 
     return SensorsManager::AirQualityData{
-        pad(tempStr, defineTempMood(temp)),
-        pad(humidityStr, defineHumidityMood(humidity)),
-        pad(co2Str, defineCo2Mood(co2)),
-        pad(pressureStr, definePressureMood(pressure))};
+        {String(temp), pad(tempStr, defineTempMood(temp))},
+        {String(humidity), pad(humidityStr, defineHumidityMood(humidity))},
+        {String(co2), pad(co2Str, defineCo2Mood(co2))},
+        {String(pressure), pad(pressureStr, definePressureMood(pressure))}};
 }
 
 String SensorsManager::pad(String &str, String last)

@@ -5,12 +5,36 @@
 class SensorsManager
 {
 public:
+    struct TempData
+    {
+        String value;
+        String displayValue;
+    };
+
+    struct HumidityData
+    {
+        String value;
+        String displayValue;
+    };
+
+    struct PressureData
+    {
+        String value;
+        String displayValue;
+    };
+
+    struct Co2Data
+    {
+        String value;
+        String displayValue;
+    };
+
     struct AirQualityData
     {
-        String temp;
-        String humidity;
-        String pressure;
-        String co2;
+        TempData temp;
+        HumidityData humidity;
+        Co2Data co2;
+        PressureData pressure;
     };
 
     void setup();

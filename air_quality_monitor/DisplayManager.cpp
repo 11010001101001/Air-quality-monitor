@@ -17,16 +17,16 @@ void DisplayManager::displayAirQualityData(SensorsManager::AirQualityData data)
 {
     display.clearDisplay();
     display.setCursor(0, 5);
-    display.print(data.temp);
+    display.print(data.temp.displayValue);
 
     display.setCursor(0, 20);
-    display.print(data.humidity);
+    display.print(data.humidity.displayValue);
 
     display.setCursor(0, 35);
-    display.print(data.pressure);
+    display.print(data.co2.displayValue);
 
     display.setCursor(0, 50);
-    display.print(data.co2);
+    display.print(data.pressure.displayValue);
 
     display.display();
 }

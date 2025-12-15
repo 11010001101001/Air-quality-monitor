@@ -45,7 +45,7 @@ void ServerManager::updateAirQualityData(SensorsManager::AirQualityData d)
 
 void ServerManager::handleRequest()
 {
-    bool noData = data.temp.isEmpty() && data.humidity.isEmpty() && data.co2.isEmpty() && data.pressure.isEmpty();
+    bool noData = data.temp.value.isEmpty() && data.humidity.value.isEmpty() && data.co2.value.isEmpty() && data.pressure.value.isEmpty();
 
     if (noData)
     {
@@ -53,10 +53,10 @@ void ServerManager::handleRequest()
     }
     else
     {
-        String json = "{\"temperature\":" + data.temp + "°C" +
-                      ",\"humidity\":" + String(data.humidity) + "%" +
-                      ",\"co2\":" + String(data.co2) + "ppm" +
-                      ",\"pressure\":" + String(data.pressure) + "mm" + "}";
+        String json = "{\"temperature\":" + data.temp.value + "C'" +
+                      ",\"humidity\":" + data.humidity.value + "%" +
+                      ",\"co2\":" + data.co2.value + "ppm" +
+                      ",\"pressure\":" + data.pressure.value + "mm" + "}";
         server.send(200, "application/json", json);
     }
 }

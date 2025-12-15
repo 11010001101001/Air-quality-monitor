@@ -15,4 +15,8 @@ private:
     ServerManager serverManager;
 
     String ip;
+    unsigned long previousMillis = 0;
+    const unsigned long minute = 60000;
+
+    void measure();
 };
