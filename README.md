@@ -64,6 +64,8 @@ This passive airflow design reduces self‑heating effects from the CO₂ sensor
 – The power cable enters the enclosure and is mechanically fixed inside it; strain relief is applied to the cable itself, not to the PCB, to avoid damaging the board and to preserve the possibility of reusing it if needed  
 – Hot glue is used for cable fixation due to its fast curing time and reversibility when disassembly is required
 
+## Reliability considerations
+
 A one‑minute measurement interval significantly reduces sensor wear and thermal stress, leading to an estimated long‑term operational lifespan (10+ years) for the device components under typical indoor use
 
 ## Usage
