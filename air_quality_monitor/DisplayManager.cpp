@@ -42,7 +42,7 @@ void DisplayManager::setup()
 
     display.clearDisplay();
     display.setCursor(5, 20);
-    display.print("Air quality measurer");
+    display.print("Air quality monitor");
 
     display.setCursor(35, 35);
     display.print("Loading...");
