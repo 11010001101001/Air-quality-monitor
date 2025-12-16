@@ -44,7 +44,7 @@ void DisplayManager::setup()
     display.setCursor(5, 20);
     display.print("Air quality monitor");
 
-    display.setCursor(35, 35);
+    display.setCursor(35, 40);
     display.print("Loading...");
     display.display();
 }

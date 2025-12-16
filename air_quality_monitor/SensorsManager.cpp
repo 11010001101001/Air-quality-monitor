@@ -140,7 +140,7 @@ String SensorsManager::defineHumidityMood(float h)
     }
     else
     {
-        return ":'(";
+        return ":(";
     }
 }
 
@@ -165,6 +165,6 @@ String SensorsManager::defineCo2Mood(uint16_t co2)
     }
     else
     {
-        return ">:(";
+        return "x(";
     }
 }
