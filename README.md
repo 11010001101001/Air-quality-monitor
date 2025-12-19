@@ -86,7 +86,7 @@ Photos of the assembled device and display output are provided below.
 <img src="https://github.com/user-attachments/assets/f7d6dca0-73f2-4f37-b492-ff99d5997c56" width="30%" />
 <img src="https://github.com/user-attachments/assets/80f79b3f-cb73-4d63-be1c-bb7f9ab8a14a" width="30%" />
 <img src="https://github.com/user-attachments/assets/01cf0e32-e5f9-42b7-a704-78d6fa095aac" width="30%" />
-<img src="https://github.com/user-attachments/assets/6ca47f4b-11ed-4616-bb69-b83b19194b85" width="100%" />
+<img src="https://github.com/user-attachments/assets/16da67b7-36bb-455b-b8e7-6f3458ec1a36" width="100%" />
 
 ## License
 
