@@ -24,7 +24,7 @@ void SensorsManager::setup()
 
 SensorsManager::AirQualityData SensorsManager::collectAirQualityData()
 {
-    float temp = bme280.readTemperature();
+    float temp = bme280.readTemperature() - tempOffset;
     float humidity = bme280.readHumidity();
     float pressure = (bme280.readPressure() / 100.0F) * 0.75006;
 

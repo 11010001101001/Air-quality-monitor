@@ -25,6 +25,7 @@ public:
 private:
     Adafruit_BME280 bme280;
     SCD4x scd4x;
+    float tempOffset = 3.5;
 
     String defineTempMood(float t);
     String definePressureMood(float p);
