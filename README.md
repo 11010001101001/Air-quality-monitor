@@ -80,13 +80,13 @@ A one‑minute measurement interval significantly reduces sensor wear and therma
 
 Photos of the assembled device and display output are provided below.
 
-<img src="assets/8ada8863-61c8-40af-a930-5b0190f8b07c" width="30%" />
-<img src="assets/4e62bfdc-34d4-4435-8e16-67b67edf3edb" width="30%" />
-<img src="assets/9a164554-e0f2-4d6e-b9b6-4eeb6f2e7277" width="30%" />
-<img src="assets/f7d6dca0-73f2-4f37-b492-ff99d5997c56" width="30%" />
-<img src="assets/80f79b3f-cb73-4d63-be1c-bb7f9ab8a14a" width="30%" />
-<img src="assets/01cf0e32-e5f9-42b7-a704-78d6fa095aac" width="30%" />
-<img src="assets/16da67b7-36bb-455b-b8e7-6f3458ec1a36" width="100%" />
+<img src="assets/526746500-8ada8863-61c8-40af-a930-5b0190f8b07c.jpg" width="30%" />
+<img src="assets/526746518-4e62bfdc-34d4-4435-8e16-67b67edf3edb.jpg" width="30%" />
+<img src="assets/526746582-9a164554-e0f2-4d6e-b9b6-4eeb6f2e7277.jpg" width="30%" />
+<img src="assets/526746596-f7d6dca0-73f2-4f37-b492-ff99d5997c56.jpg" width="30%" />
+<img src="assets/526746617-80f79b3f-cb73-4d63-be1c-bb7f9ab8a14a.jpg" width="30%" />
+<img src="assets/526746636-01cf0e32-e5f9-42b7-a704-78d6fa095aac.jpg" width="30%" />
+<img src="assets/528403655-16da67b7-36bb-455b-b8e7-6f3458ec1a36.jpg" width="100%" />
 
 ## License
 
