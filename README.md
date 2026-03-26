@@ -80,12 +80,12 @@ A one‑minute measurement interval significantly reduces sensor wear and therma
 
 Photos of the assembled device and display output are provided below.
 
-<img src="./assets/img1.jpg" width="30%" />
-<img src="./assets/img2.jpg" width="30%" />
-<img src="./assets/img3.jpg" width="30%" />
-<img src="./assets/img4.jpg" width="30%" />
-<img src="./assets/img5.jpg" width="30%" />
-<img src="./assets/img6.jpg" width="30%" />
+<img src="./assets/img1.jpg" width="50%" />
+<img src="./assets/img2.jpg" width="50%" />
+<img src="./assets/img3.jpg" width="50%" />
+<img src="./assets/img4.jpg" width="50%" />
+<img src="./assets/img5.jpg" width="50%" />
+<img src="./assets/img6.jpg" width="50%" />
 <img src="./assets/img7.jpg" width="100%" />
 
 ## License
