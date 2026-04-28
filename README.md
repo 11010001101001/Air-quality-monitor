@@ -92,10 +92,3 @@ Photos of the assembled device and display output are provided below.
 
 MIT
 
-## Support
-
-If you find this project useful:
-
-TON: UQCQclFDQnQkHI4bJETisvn4QAZevjMWx5mjC3AErZaXvhlU  
-USDT: TSiRAGH2apuygsgYP7Q9mS48WN4gDS6D5o  
-BTC: 1HCZ7KsmVoiDrvPpnZ5jLQPp7mi7xWR7fi
