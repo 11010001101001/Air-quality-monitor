@@ -1,4 +1,5 @@
 #include "ServerManager.h"
+#include <ESPmDNS.h>
 
 ServerManager::ServerManager()
     : server(80)
@@ -8,6 +9,7 @@ ServerManager::ServerManager()
 String ServerManager::setup()
 {
     WiFi.begin(ssid, password);
+    MDNS.begin("akira_air");
 
     while (WiFi.status() != WL_CONNECTED && millis() - startAttemptTime < timeout)
     {
